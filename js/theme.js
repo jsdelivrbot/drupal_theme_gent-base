@@ -267,8 +267,6 @@
 
   // executes after everything is loaded.
   $(document).ready(function () {
-
-    //Show and hide search form
     $('.search-icon-block').click(function () {
       $('.not-front .search-widget > div').toggle([9000]);
     });
