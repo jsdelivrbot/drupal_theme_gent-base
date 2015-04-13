@@ -22,6 +22,9 @@ group :development do
   gem 'guard-livereload'        # Browser reload.
   gem 'yajl-ruby'               # Faster JSON with LiveReload in the browser.
 
+  # Hologram.
+  gem 'hologram'
+
   # Dependency to prevent polling. Setup for multiple OS environments.
   # Optionally remove the lines not specific to your OS.
   # https://github.com/guard/guard#efficient-filesystem-handling
