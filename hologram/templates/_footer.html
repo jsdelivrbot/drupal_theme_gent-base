@@ -1,0 +1,34 @@
+</div>
+        </div>
+    </div>
+    <!-- Footer
+================================================== -->
+    <footer class="bs-docs-footer" role="contentinfo">
+        <div class="container">
+        </div>
+    </footer>
+
+    <script>
+$(document).ready(function() {
+
+  // set the active tab
+  var currentHref = document.location.pathname.split( '/' );
+  var currentHrefPart = "";
+  var i = currentHref.length - 1;
+  currentHrefPart = currentHref[i];
+  if (currentHref)
+  {
+    $('.docNav').find('a[href^="' + currentHrefPart + '"]').addClass('activeNavElem typeEmphasize');
+    $('.docNav').find('a[href^="' + currentHrefPart + '"]').parent().addClass('active');
+  }
+  else
+  {
+    $('.docNav').find('a').eq(0).addClass('activeNavElem typeEmphasize');
+  }
+
+
+});
+</script>
+</body>
+
+</html>
