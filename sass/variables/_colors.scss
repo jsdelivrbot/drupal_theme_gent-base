@@ -31,3 +31,138 @@ $alpha-link-colorhover: darken($alpha-ui-color, 10);
 $alpha-link-colorfocus: darken($alpha-ui-color, 10);
 $alpha-link-coloractive: $alpha-ui-color;
 $alpha-link-colorvisited: $alpha-ui-color;
+
+
+/*doc
+---
+title: Basics
+name: Colors
+category: basics
+---
+
+                div class="bs-docs-section">
+                  <h1 id="colors">Colors<a class="anchorjs-link" href="#colors"><span class="anchorjs-icon"></span></a></h1>
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae enim eu justo porta eleifend. Donec condimentum bibendum ex at facilisis. In elit diam, laoreet blandit rhoncus eu, dignissim eu metus. Sed bibendum lacus sit amet faucibus pellentesque. Nulla quis congue quam. Nam tincidunt ex eros, non scelerisque diam lacinia porttitor.</p>
+                  <div class="row bs-examples colors-wrapper">
+                    <div class="col-xs-4 col-md-3">
+                      <a class="thumbnail used-colors gamma-ui-color">
+                      </a>
+                      <h4 id="narrow-jumbotron">#ecf5f7<a class="anchorjs-link" href="#narrow-jumbotron"><span class="anchorjs-icon"></span></a></h4>
+                      <br/>
+                    </div>
+                    <div class="col-xs-4 col-md-3">
+                      <a class="thumbnail used-colors alpha-ui-color">
+                      </a>
+                      <h4 id="narrow-jumbotron">#007db3<a class="anchorjs-link" href="#narrow-jumbotron"><span class="anchorjs-icon"></span></a></h4>
+                      <br/>
+                    </div>
+                    <div class="col-xs-4 col-md-3">
+                      <a class="thumbnail used-colors beta-ui-color">
+                      </a>
+                      <h4 id="narrow-jumbotron">#2c3f48<a class="anchorjs-link" href="#narrow-jumbotron"><span class="anchorjs-icon"></span></a></h4>
+                      <br/>
+                    </div>
+                    <div class="clearfix visible-xs visible-sm"></div>
+                    <div class="col-xs-4 col-md-3">
+                      <a class="thumbnail used-colors delta-ui-color">
+                      </a>
+                      <h4 id="narrow-jumbotron">#f39200<a class="anchorjs-link" href="#narrow-jumbotron"><span class="anchorjs-icon"></span></a></h4>
+                      <br/>
+                    </div>
+                    <div class="clearfix visible-md visible-lg"></div>
+                    <div class="col-xs-4 col-md-3">
+                      <a class="thumbnail used-colors error-color">
+                      </a>
+                      <h4 id="narrow-jumbotron">#d62300<a class="anchorjs-link" href="#narrow-jumbotron"><span class="anchorjs-icon"></span></a></h4>
+                      <br/>
+                    </div>
+                    <div class="col-xs-4 col-md-3">
+                      <a class="thumbnail used-colors success-color">
+                      </a>
+                      <h4 id="narrow-jumbotron">#93d600<a class="anchorjs-link" href="#narrow-jumbotron"><span class="anchorjs-icon"></span></a></h4>
+                      <br/>
+                    </div>
+                    <div class="clearfix visible-xs visible-sm"></div>
+                    <div class="col-xs-4 col-md-3">
+                      <a class="thumbnail used-colors white-color">
+                      </a>
+                      <h4 id="narrow-jumbotron">#ffffff<a class="anchorjs-link" href="#narrow-jumbotron"><span class="anchorjs-icon"></span></a></h4>
+                      <br/>
+                    </div>
+                    <div class="col-xs-4 col-md-3">
+                      <a class="thumbnail used-colors disabled-ui-color">
+                      </a>
+                      <h4 id="narrow-jumbotron">#f5f5f1<a class="anchorjs-link" href="#narrow-jumbotron"><span class="anchorjs-icon"></span></a></h4>
+                      <br/>
+                    </div>
+                    <div class="clearfix visible-md visible-lg"></div>
+                    <div class="col-xs-4 col-md-3">
+                      <a class="thumbnail used-colors disabled-color">
+                      </a>
+                      <h4 id="narrow-jumbotron">#c0c0bb<a class="anchorjs-link" href="#narrow-jumbotron"><span class="anchorjs-icon"></span></a></h4>
+                      <br/>
+                    </div>
+                    <div class="clearfix visible-xs visible-sm"></div>
+                    <div class="col-xs-4 col-md-3">
+                      <a class="thumbnail used-colors gamma-text-color">
+                      </a>
+                      <h4 id="narrow-jumbotron">#9da8af<a class="anchorjs-link" href="#narrow-jumbotron"><span class="anchorjs-icon"></span></a></h4>
+                      <br/>
+                    </div>
+                    <div class="col-xs-4 col-md-3">
+                      <a class="thumbnail used-colors beta-text-color">
+                      </a>
+                      <h4 id="narrow-jumbotron">#6c7678<a class="anchorjs-link" href="#narrow-jumbotron"><span class="anchorjs-icon"></span></a></h4>
+                      <br/>
+                    </div>
+                    <div class="col-xs-4 col-md-3">
+                      <a class="thumbnail used-colors alpha-text-color">
+                      </a>
+                      <h4 id="narrow-jumbotron">#595f60<a class="anchorjs-link" href="#narrow-jumbotron"><span class="anchorjs-icon"></span></a></h4>
+                      <br/>
+                    </div>
+                    <div class="clearfix visible-xs visible-sm"></div>
+                    <div class="clearfix visible-md visible-lg"></div>
+                    <div class="col-xs-4 col-md-3">
+                      <a class="thumbnail used-colors dark-color">
+                      </a>
+                      <h4 id="narrow-jumbotron">#282b2b<a class="anchorjs-link" href="#narrow-jumbotron"><span class="anchorjs-icon"></span></a></h4>
+                      <br/>
+                    </div>
+                  </div>
+                </div>
+
+
+
+*/
+
+
+
+/*doc
+---
+title: Test
+name: test
+category: basics
+---
+
+<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae enim eu justo porta eleifend. Donec condimentum bibendum ex at facilisis. In elit diam, laoreet blandit rhoncus eu, dignissim eu metus. Sed bibendum lacus sit amet faucibus pellentesque. Nulla quis congue quam. Nam tincidunt ex eros, non scelerisque diam lacinia porttitor.</p>
+
+Class          | Description
+-------------- | -----------------
+badgeStandard  | This is a basic badge
+badgePrimary   | This is a badge with the trulia orange used on CTAs
+badgeSecondary | This is a badge with the alternate CTA color (Trulia green)
+badgeTertiary  | This is a badge for a warning or something negative
+
+
+```html_example
+<strong class="badgeStandard">Sold</strong>
+<strong class="badgePrimary">For Sale</strong>
+<strong class="badgeSecondary">For Rent</strong>
+```
+
+*/
+
+
+
+
