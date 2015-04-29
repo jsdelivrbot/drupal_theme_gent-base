@@ -35,14 +35,16 @@ $alpha-link-colorvisited: $alpha-ui-color;
 
 /*doc
 ---
-title: Basics
+title: Colors
 name: Colors
 category: basics
 ---
 
-                div class="bs-docs-section">
-                  <h1 id="colors">Colors<a class="anchorjs-link" href="#colors"><span class="anchorjs-icon"></span></a></h1>
-                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae enim eu justo porta eleifend. Donec condimentum bibendum ex at facilisis. In elit diam, laoreet blandit rhoncus eu, dignissim eu metus. Sed bibendum lacus sit amet faucibus pellentesque. Nulla quis congue quam. Nam tincidunt ex eros, non scelerisque diam lacinia porttitor.</p>
+<p class="lead">We have a few background colors that can be used in various contexts.
+These are not for use as the entire page background but instead for
+specific components and modules on the page.</p>
+
+<div class="line txtC">
                   <div class="row bs-examples colors-wrapper">
                     <div class="col-xs-4 col-md-3">
                       <a class="thumbnail used-colors gamma-ui-color">
@@ -130,10 +132,7 @@ category: basics
                       <br/>
                     </div>
                   </div>
-                </div>
-
-
-
+</div>
 */
 
 
