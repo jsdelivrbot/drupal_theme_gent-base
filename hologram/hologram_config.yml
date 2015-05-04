@@ -30,11 +30,12 @@ code_example_renderers: ./code_example_renderers
 # libraries and any other dependencies your style guide will have
 dependencies:
   - ./build
+  - ../sass
 
 # To additionally output navigation for top level sections, set the value to
 # 'section'. To output navigation for sub-sections,
 # set the value to `all`
-nav_level: all
+nav_level: 'section'
 
 # Hologram displays warnings when there are issues with your docs
 # (e.g. if a component's parent is not found, if the _header.html and/or

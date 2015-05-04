@@ -26,4 +26,36 @@ $importantnumber: 36;
 $leading: 1;
 $base-size: $alpha-font-size/16*1em;
 
+/*doc
+---
+title: Typography
+name: Typography
+category: basics
+---
 
+<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae enim eu justo porta eleifend. Donec condimentum bibendum ex at facilisis. In elit diam, laoreet blandit rhoncus eu, dignissim eu metus. Sed bibendum lacus sit amet faucibus pellentesque. Nulla quis congue quam. Nam tincidunt ex eros, non scelerisque diam lacinia porttitor.</p>
+
+*/
+
+
+
+/*doc
+---
+parent: Typography
+title: Font families
+name: Font families
+category: basics
+---
+
+<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae enim eu justo porta eleifend. Donec condimentum bibendum ex at facilisis. In elit diam, laoreet blandit rhoncus eu, dignissim eu metus. Sed bibendum lacus sit amet faucibus pellentesque. Nulla quis congue quam. Nam tincidunt ex eros, non scelerisque diam lacinia porttitor.</p>
+
+<div class="line txtC">
+                  <br/>
+                  <h2 class="source_sans_pro alpha-ui-color-font paddingtop-reset">Source Sans Pro</h2>
+                  <h2 class=".express_way_extra_bold alpha-ui-color-font paddingtop-reset">Express Way Extra Bold</h2>
+                  <h2 class="arial alpha-ui-color-font paddingtop-reset">Arial</h2>
+                  <h2 class="sans_serif alpha-ui-color-font paddingtop-reset">Sans-serif</h2>
+                  <br/>
+                  <br/>
+</div>
+*/

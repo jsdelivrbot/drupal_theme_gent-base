@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="static/css/github.css">
 
     <!-- CSS to be documented -->
-    <link rel="stylesheet" href="build/css/bootstrap.css">
-    <link rel="stylesheet" href="build/css/styles.css">
+    <link rel="stylesheet" href="../../../gentbe/css/gentbe.styles.css">
+    <link rel="stylesheet" href="../build/css/bootstrap.css">
+    <link rel="stylesheet" href="../build/css/styles.css">
+
 
     <!-- Main libraries -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
@@ -82,7 +84,7 @@
         <div class="container bs-docs-container">
             <div class="row">
                 <div class="col-md-3" role="complementary">
-                    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
+                    <nav class="styleguide-menu bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
                         <ul class="nav bs-docs-sidenav componentList listBorderedHover">
                           <% @blocks.each do |block| %>
                             <li><a href="#<%= block[:name] %>"><%= block[:title] %></a></li>
