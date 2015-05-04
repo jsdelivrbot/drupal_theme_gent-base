@@ -26,70 +26,71 @@
 </head>
 
 <body data-twttr-rendered="true">
-    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
-        <div class="container"><span class="skiplink-text">Skip to main content</span></div>
-    </a>
-    <!-- Docs master nav -->
-    <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
-        <div class="container">
-            <div class="navbar-header">
-                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="index.html" class="navbar-brand">Stad Gent</a>
-            </div>
-            <nav class="navbar-collapse bs-navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
-                <ul class="nav navbar-nav docNav listInline">
-                    <li>
-                        <a href="basics.html">Basics</a>
-                    </li>
-                    <li>
-                        <a href="menus.html">Menus</a>
-                    </li>
-                    <li>
-                        <a href="objects.html">Objects</a>
-                    </li>
-                    <li>
-                        <a href="elements.html">Elements</a>
-                    </li>
-                    <li>
-                        <a href="forms.html">Forms</a>
-                    </li>
-                    <li>
-                        <a href="widgets.html">Widgets</a>
-                    </li>
-                    <li>
-                        <a href="media.html">Media</a>
-                    </li>
-                    <li>
-                        <a href="dos_and_donts.html">Do's & don'ts</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <!-- Docs page layout -->
-    <div class="bs-docs-header" id="content" tabindex="-1">
-        <div class="container">
-            <h1>Styleguide</h1>
-            <p>An overview of styles and elements used throughout the de site of the city of Gent.</p>
-        </div>
-    </div>
-    <div class="container bs-docs-container">
-        <div class="row">
-            <div class="col-md-3" role="complementary">
-                <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
-                    <ul class="nav bs-docs-sidenav componentList listBorderedHover">
-                      <% @blocks.each do |block| %>
-                        <li><a href="#<%= block[:name] %>"><%= block[:title] %></a></li>
-                      <% end %>
+    <div class="wrapper-container">
+        <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+            <div class="container"><span class="skiplink-text">Skip to main content</span></div>
+        </a>
+        <!-- Docs master nav -->
+        <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">Stad Gent</a>
+                </div>
+                <nav class="navbar-collapse bs-navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                    <ul class="nav navbar-nav docNav listInline">
+                        <li>
+                            <a href="basics.html">Basics</a>
+                        </li>
+                        <li>
+                            <a href="menus.html">Menus</a>
+                        </li>
+                        <li>
+                            <a href="objects.html">Objects</a>
+                        </li>
+                        <li>
+                            <a href="elements.html">Elements</a>
+                        </li>
+                        <li>
+                            <a href="forms.html">Forms</a>
+                        </li>
+                        <li>
+                            <a href="widgets.html">Widgets</a>
+                        </li>
+                        <li>
+                            <a href="media.html">Media</a>
+                        </li>
+                        <li>
+                            <a href="dos_and_donts.html">Do's & don'ts</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
-            <div class="col-md-9" role="main">
+        </header>
+        <!-- Docs page layout -->
+        <div class="bs-docs-header" id="content" tabindex="-1">
+            <div class="container">
+                <h1>Styleguide</h1>
+                <p>An overview of styles and elements used throughout the de site of the city of Gent.</p>
+            </div>
+        </div>
+        <div class="container bs-docs-container">
+            <div class="row">
+                <div class="col-md-3" role="complementary">
+                    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
+                        <ul class="nav bs-docs-sidenav componentList listBorderedHover">
+                          <% @blocks.each do |block| %>
+                            <li><a href="#<%= block[:name] %>"><%= block[:title] %></a></li>
+                          <% end %>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-9" role="main">
 
 
 
