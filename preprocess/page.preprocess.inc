@@ -20,7 +20,7 @@ function gent_base_preprocess_page(&$variables) {
   if ($fid = variable_get('default_headerimage_fid')) {
     $file = file_load($fid);
     if ($file) {
-      $variables['header_image'] = image_style_url('headerbanner', $file->uri);
+      $variables['header_image'] = image_style_url('home_banner', $file->uri);
     }
   }
 
