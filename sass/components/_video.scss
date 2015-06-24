@@ -1,5 +1,5 @@
 .video-wrapper {
-  
+
 }
 .video-wrapper--above-content {
   @include padding-tb(0, .6);
@@ -13,3 +13,26 @@
 
   border-top: 1px solid $gamma-ui-color;
 }
+
+/*doc
+---
+title: Video
+name: video
+category: media
+---
+
+*/
+
+/*doc
+---
+parent: video
+title: Youtube video
+name: youtubevideo
+category: media
+---
+
+```html_example
+<div class="youtube-container--responsive">
+    <iframe id="youtube-field-player" class="youtube-field-player" width="100%" height="100%" src="https://www.youtube.com/embed/KLpsmnFYRFM?rel=0&amp;modestbranding=1&amp;wmode=opaque" frameborder="0" allowfullscreen=""></iframe>
+</div>
+```*/

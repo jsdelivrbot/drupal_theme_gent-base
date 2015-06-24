@@ -142,6 +142,356 @@
   content: "\63";
 }
 
+
+
 .article-content-action-document-size {
   @extend .filesize;
 }
+
+/*doc
+---
+title: Webform action
+name: webformaction
+category: elements
+---
+
+<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae enim eu justo porta eleifend. Donec condimentum bibendum ex at facilisis. In elit diam, laoreet blandit rhoncus eu, dignissim eu metus. Sed bibendum lacus sit amet faucibus pellentesque. Nulla quis congue quam. Nam tincidunt ex eros, non scelerisque diam lacinia porttitor.</p>
+
+*/
+
+/*doc
+---
+parent: webformaction
+title: Link action external
+name: linkactionexternal
+category: elements
+---
+
+<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae enim eu justo porta eleifend. Donec condimentum bibendum ex at facilisis. In elit diam, laoreet blandit rhoncus eu, dignissim eu metus. Sed bibendum lacus sit amet faucibus pellentesque. Nulla quis congue quam. Nam tincidunt ex eros, non scelerisque diam lacinia porttitor.</p>
+
+```html_example
+<p id="sheet-forms" class="entity-property entity-property-form-url"><a href="#" class="article-content-action"><span class="icon icon-newtab"></span>
+<span class="article-content-action-title">Fill in the webform online</span>
+<span class="article-content-action-document">Webformulier</span>
+</a></p>
+```*/
+
+/*doc
+---
+parent: webformaction
+title: Document action
+name: documentaction
+category: elements
+---
+
+<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae enim eu justo porta eleifend. Donec condimentum bibendum ex at facilisis. In elit diam, laoreet blandit rhoncus eu, dignissim eu metus. Sed bibendum lacus sit amet faucibus pellentesque. Nulla quis congue quam. Nam tincidunt ex eros, non scelerisque diam lacinia porttitor.</p>
+
+```html_example
+<p class="entity-property entity-property-forms"><a href="#.pdf" class="article-content-action"><span class="icon icon-form_fill"></span>
+<span class="article-content-action-title">Fill in PDF</span>
+<span class="article-content-action-document">lorem_impsum.pdf</span> <span class="small article-content-action-document-size">101.16 KB</span>
+</a></p>
+```*/
+
+
+/*doc
+---
+parent: webformaction
+title: Link action
+name: linkaction
+category: elements
+---
+
+<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae enim eu justo porta eleifend. Donec condimentum bibendum ex at facilisis. In elit diam, laoreet blandit rhoncus eu, dignissim eu metus. Sed bibendum lacus sit amet faucibus pellentesque. Nulla quis congue quam. Nam tincidunt ex eros, non scelerisque diam lacinia porttitor.</p>
+
+```html_example
+<a class="article-content-action" href="#" rel="link">
+<span class="icon icon icon-link"></span>
+<span class="article-content-action-title">Action title</span>
+<span class="article-content-action-document">action link</span>
+</a>
+```*/
+
+
+/*doc
+---
+parent: webformaction
+title: Sheet attachements
+name: sheetattachments
+category: elements
+---
+
+<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae enim eu justo porta eleifend. Donec condimentum bibendum ex at facilisis. In elit diam, laoreet blandit rhoncus eu, dignissim eu metus. Sed bibendum lacus sit amet faucibus pellentesque. Nulla quis congue quam. Nam tincidunt ex eros, non scelerisque diam lacinia porttitor.</p>
+
+```html_example
+<div id="sheet-attachments" class="island island--kappa no-border-bottom">
+<h3><i class="icon-clip"></i>Bijlages</h3>
+<ul class="link-list">
+<li class="first last">
+<a href="#.pdf" type="application/pdf; length=1919252">lorem ipsum.pdf</a>
+<span class="filetype">1.83 MB</span> <span class="filetype">PDF</span>
+</li>
+<li class="first last">
+<a href="#.pdf" type="application/pdf; length=1919252">lorem ipsum.pdf</a>
+<span class="filetype">1.83 MB</span> <span class="filetype">PDF</span>
+</li>
+</ul></div>
+```*/
+
+/*doc
+---
+parent: webformaction
+title: Info documents
+name: infodocuments
+category: elements
+---
+
+<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae enim eu justo porta eleifend. Donec condimentum bibendum ex at facilisis. In elit diam, laoreet blandit rhoncus eu, dignissim eu metus. Sed bibendum lacus sit amet faucibus pellentesque. Nulla quis congue quam. Nam tincidunt ex eros, non scelerisque diam lacinia porttitor.</p>
+
+```html_example
+<a class="article-content-action" href="#.doc" rel="document">
+<span class="icon icon icon-document"></span>
+<span class="article-content-action-title">Read more</span>
+<span class="article-content-action-document">Lorem ipsum dolor sit amet</span>
+<span class="small article-content-action-document-size">(3.58 MB)</span>
+</a>
+```*/
+
+/*doc
+---
+parent: webformaction
+title: Info pages
+name: infopages
+category: elements
+---
+
+<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae enim eu justo porta eleifend. Donec condimentum bibendum ex at facilisis. In elit diam, laoreet blandit rhoncus eu, dignissim eu metus. Sed bibendum lacus sit amet faucibus pellentesque. Nulla quis congue quam. Nam tincidunt ex eros, non scelerisque diam lacinia porttitor.</p>
+
+```html_example
+<div class="island island--beta field-services-info-pages-view">
+  <header>
+  <h3><i class="icon-link"></i>Ook nog interessant</h3>
+  </header>
+
+<div class="view view-services-and-infopages view-id-services_and_infopages view-display-id-services_infopages_manual">
+  <div class="view-content clearfix">
+    <ul class="link-list">
+      <li class="">
+        <a href="#">Lorem ipsum</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+```*/
+
+/*doc
+---
+parent: webformaction
+title: Mail action
+name: mailaction
+category: elements
+---
+
+<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae enim eu justo porta eleifend. Donec condimentum bibendum ex at facilisis. In elit diam, laoreet blandit rhoncus eu, dignissim eu metus. Sed bibendum lacus sit amet faucibus pellentesque. Nulla quis congue quam. Nam tincidunt ex eros, non scelerisque diam lacinia porttitor.</p>
+
+```html_example
+<a class="article-content-action" href="mailto:lorem@ipsum.com" rel="email">
+  <span class="icon icon icon-email"></span>
+  <span class="article-content-action-title">Mail</span>
+  <span class="article-content-action-document">lorem@ipsum.com</span>
+</a>
+```*/
+
+/*doc
+---
+parent: webformaction
+title: Phone action
+name: phoneaction
+category: elements
+---
+
+<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae enim eu justo porta eleifend. Donec condimentum bibendum ex at facilisis. In elit diam, laoreet blandit rhoncus eu, dignissim eu metus. Sed bibendum lacus sit amet faucibus pellentesque. Nulla quis congue quam. Nam tincidunt ex eros, non scelerisque diam lacinia porttitor.</p>
+
+```html_example
+<a class="article-content-action" href="tel:+3292682120 " rel="phone">
+  <span class="icon icon icon-phone"></span>
+  <span class="article-content-action-title">Phone</span>
+  <span class="article-content-action-document">09 268 21 20</span>
+</a>
+```*/
+
+/*doc
+---
+parent: webformaction
+title: Location action
+name: locationaction
+category: elements
+---
+
+<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae enim eu justo porta eleifend. Donec condimentum bibendum ex at facilisis. In elit diam, laoreet blandit rhoncus eu, dignissim eu metus. Sed bibendum lacus sit amet faucibus pellentesque. Nulla quis congue quam. Nam tincidunt ex eros, non scelerisque diam lacinia porttitor.</p>
+
+```html_example
+<a class="article-content-action" href="/node/6716" rel="loc">
+<span class="icon icon icon-loc"></span>
+<span class="article-content-action-title">Lorem ipsum dolor sit amet</span>
+<span class="article-content-action-document">KLorem ipsum dolor</span>
+</a>
+```*/
+
+/*doc
+---
+title: Adresses openings hours
+name: Adressesopeninghours
+category: elements
+---
+
+<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae enim eu justo porta eleifend. Donec condimentum bibendum ex at facilisis. In elit diam, laoreet blandit rhoncus eu, dignissim eu metus. Sed bibendum lacus sit amet faucibus pellentesque. Nulla quis congue quam. Nam tincidunt ex eros, non scelerisque diam lacinia porttitor.</p>
+
+```html_example
+<div class="view view-locations view-id-locations view-display-id-page_1 view-dom-id-76d884cd46734311dd12bf15d5dd1e5f">
+<div class="attachment attachment-before clearfix">
+    <div class="view view-locations view-id-locations view-display-id-attachment_1 map-embed">
+        <div class="view-content clearfix">
+            <div class="openlayers-views-map">
+                <div style="width:auto;height:400px;" id="openlayers-container-openlayers-map" class="contextual-links-region openlayers-container openlayers-container-map-location-per-categorie digipolis_openlayers_ga_events-processed">
+                    <div style="width:auto;height:400px;" id="openlayers-map" class="openlayers-map openlayers-map-location-per-categorie openlayers-map-processed olMap openlayers-openlayers_behavior_attribution-processed openlayers-openlayers_behavior_cluster-processed openlayers-openlayers_behavior_layerzoom-processed openlayers-openlayers_behavior_navigation-processed openlayers-openlayers_behavior_panzoombar-processed openlayers-openlayers_behavior_zoomtolayer-processed openlayers-openlayers_behavior_popup-processed">
+                        <div id="OpenLayers.Map_2_OpenLayers_ViewPort" class="olMapViewport olControlAttributionActive olControlDragPanActive olControlZoomBoxActive olControlPinchZoomActive olControlNavigationActive olControlPanZoomBarActive olControlSelectFeatureActive" style="position: relative; overflow: hidden; width: 100%; height: 100%;">
+                            <div id="OpenLayers.Map_2_OpenLayers_Container" style="position: absolute; width: 100px; height: 100px; z-index: 749; left: 582px; top: 28px;">
+                                <div id="OpenLayers.Layer.ArcGISCache_4" dir="ltr" class="olLayerDiv olLayerGrid" style="position: absolute; width: 100%; height: 100%; z-index: 100; left: 0%; top: 0%;"><img class="olTileImage" src="https://extragis.gent.be/ExtraGIS/rest/services/G_Algemeen/stadsplan_wgs84_anno/MapServer/tile/12/1370/2092" style="visibility: inherit; opacity: 1; position: absolute; left: 513%; top: 192%; width: 256%; height: 256%;"><img class="olTileImage" src="https://extragis.gent.be/ExtraGIS/rest/services/G_Algemeen/stadsplan_wgs84_anno/MapServer/tile/12/1369/2092" style="visibility: inherit; opacity: 1; position: absolute; left: 513%; top: -64%; width: 256%; height: 256%;"><img class="olTileImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAQAIBRAA7" style="visibility: hidden; opacity: 0; position: absolute; left: 769%; top: 192%; width: 256%; height: 256%;"><img class="olTileImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAQAIBRAA7" style="visibility: hidden; opacity: 0; position: absolute; left: 769%; top: -64%; width: 256%; height: 256%;"><img class="olTileImage" src="https://extragis.gent.be/ExtraGIS/rest/services/G_Algemeen/stadsplan_wgs84_anno/MapServer/tile/12/1370/2091" style="visibility: inherit; opacity: 1; position: absolute; left: 257%; top: 192%; width: 256%; height: 256%;"><img class="olTileImage" src="https://extragis.gent.be/ExtraGIS/rest/services/G_Algemeen/stadsplan_wgs84_anno/MapServer/tile/12/1369/2091" style="visibility: inherit; opacity: 1; position: absolute; left: 257%; top: -64%; width: 256%; height: 256%;"><img class="olTileImage" src="https://extragis.gent.be/ExtraGIS/rest/services/G_Algemeen/stadsplan_wgs84_anno/MapServer/tile/12/1371/2092" style="visibility: inherit; opacity: 1; position: absolute; left: 513%; top: 448%; width: 256%; height: 256%;"><img class="olTileImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAQAIBRAA7" style="visibility: hidden; opacity: 0; position: absolute; left: 769%; top: 448%; width: 256%; height: 256%;"><img class="olTileImage" src="https://extragis.gent.be/ExtraGIS/rest/services/G_Algemeen/stadsplan_wgs84_anno/MapServer/tile/12/1371/2091" style="visibility: inherit; opacity: 1; position: absolute; left: 257%; top: 448%; width: 256%; height: 256%;"><img class="olTileImage" src="https://extragis.gent.be/ExtraGIS/rest/services/G_Algemeen/stadsplan_wgs84_anno/MapServer/tile/12/1370/2090" style="visibility: inherit; opacity: 1; position: absolute; left: 1%; top: 192%; width: 256%; height: 256%;"><img class="olTileImage" src="https://extragis.gent.be/ExtraGIS/rest/services/G_Algemeen/stadsplan_wgs84_anno/MapServer/tile/12/1369/2090" style="visibility: inherit; opacity: 1; position: absolute; left: 1%; top: -64%; width: 256%; height: 256%;"><img class="olTileImage" src="https://extragis.gent.be/ExtraGIS/rest/services/G_Algemeen/stadsplan_wgs84_anno/MapServer/tile/12/1371/2090" style="visibility: inherit; opacity: 1; position: absolute; left: 1%; top: 448%; width: 256%; height: 256%;"><img class="olTileImage" src="https://extragis.gent.be/ExtraGIS/rest/services/G_Algemeen/stadsplan_wgs84_anno/MapServer/tile/12/1370/2089" style="visibility: inherit; opacity: 1; position: absolute; left: -255%; top: 192%; width: 256%; height: 256%;"><img class="olTileImage" src="https://extragis.gent.be/ExtraGIS/rest/services/G_Algemeen/stadsplan_wgs84_anno/MapServer/tile/12/1369/2089" style="visibility: inherit; opacity: 1; position: absolute; left: -255%; top: -64%; width: 256%; height: 256%;"><img class="olTileImage" src="https://extragis.gent.be/ExtraGIS/rest/services/G_Algemeen/stadsplan_wgs84_anno/MapServer/tile/12/1371/2089" style="visibility: inherit; opacity: 1; position: absolute; left: -255%; top: 448%; width: 256%; height: 256%;"><img class="olTileImage" src="https://extragis.gent.be/ExtraGIS/rest/services/G_Algemeen/stadsplan_wgs84_anno/MapServer/tile/12/1369/2088" style="visibility: inherit; opacity: 1; position: absolute; left: -511%; top: -64%; width: 256%; height: 256%;"><img class="olTileImage" src="https://extragis.gent.be/ExtraGIS/rest/services/G_Algemeen/stadsplan_wgs84_anno/MapServer/tile/12/1370/2088" style="visibility: inherit; opacity: 1; position: absolute; left: -511%; top: 192%; width: 256%; height: 256%;"><img class="olTileImage" src="https://extragis.gent.be/ExtraGIS/rest/services/G_Algemeen/stadsplan_wgs84_anno/MapServer/tile/12/1371/2088" style="visibility: inherit; opacity: 1; position: absolute; left: -511%; top: 448%; width: 256%; height: 256%;"><img class="olTileImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAQAIBRAA7" style="visibility: hidden; opacity: 0; position: absolute; left: -767%; top: -64%; width: 256%; height: 256%;"><img class="olTileImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAQAIBRAA7" style="visibility: hidden; opacity: 0; position: absolute; left: -767%; top: 192%; width: 256%; height: 256%;"><img class="olTileImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAQAIBRAA7" style="visibility: hidden; opacity: 0; position: absolute; left: -767%; top: 448%; width: 256%; height: 256%;"></div>
+                                <div id="OpenLayers.Layer.Vector_27" dir="ltr" class="olLayerDiv" style="position: absolute; width: 100%; height: 100%; z-index: 330; left: -582px; top: -28px;">
+                                    <svg id="OpenLayers.Layer.Vector_27_svgRoot" width="1378" height="400" viewBox="0 0 1378 400" style="display: block;"></svg>
+                                </div>
+                                <div id="OpenLayers.Layer.Vector.RootContainer_195" dir="ltr" class="olLayerDiv" style="position: absolute; width: 100%; height: 100%; z-index: 725; left: -582px; top: -28px;">
+                                    <svg id="OpenLayers.Layer.Vector.RootContainer_195_svgRoot" width="1378" height="400" viewBox="0 0 1378 400" style="display: block;">
+                                        <g id="OpenLayers.Layer.Vector.RootContainer_195_root" transform="translate(581.9999999885767,27.99999998975545)" style="visibility: visible;">
+                                            <g id="OpenLayers.Layer.Vector.RootContainer_195_vroot"></g>
+                                            <g id="OpenLayers.Layer.Vector.RootContainer_195_troot"></g>
+                                        </g>
+                                        <g id="OpenLayers.Layer.Vector_27_root" transform="translate(581.9999999885767,27.99999998975545)" style="visibility: visible;">
+                                            <g id="OpenLayers.Layer.Vector_27_vroot">
+                                                <image id="OpenLayers.Geometry.Point_242" cx="214.58225598447098" cy="49.76770809839945" r="1" preserveAspectRatio="none" x="199" y="18" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/sites/all/modules/custom/digipolis_arcgis/digipolis_arcgis_openlayers/images/orange-marker.png" style="opacity: 1" fill="#ee9900" fill-opacity="1" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image>
+                                                <image id="OpenLayers.Geometry.Point_252" cx="75.202302635862" cy="93.41662686792552" r="1" preserveAspectRatio="none" x="59" y="61" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/sites/all/modules/custom/digipolis_arcgis/digipolis_arcgis_openlayers/images/orange-marker.png" style="opacity: 1" fill="#ee9900" fill-opacity="1" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image>
+                                                <image id="OpenLayers.Geometry.Point_238" cx="-45.00480419555606" cy="154.47508901002584" r="1" preserveAspectRatio="none" x="-61" y="122" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/sites/all/modules/custom/digipolis_arcgis/digipolis_arcgis_openlayers/images/orange-marker.png" style="opacity: 1" fill="#ee9900" fill-opacity="1" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image>
+                                                <image id="OpenLayers.Geometry.Point_228" cx="42.31095310872479" cy="181.20346956377034" r="1" preserveAspectRatio="none" x="26" y="149" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/sites/all/modules/custom/digipolis_arcgis/digipolis_arcgis_openlayers/images/orange-marker.png" style="opacity: 1" fill="#ee9900" fill-opacity="1" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image>
+                                                <image id="OpenLayers.Geometry.Point_250" cx="243.20870683129579" cy="201.71771738294046" r="1" preserveAspectRatio="none" x="227" y="170" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/sites/all/modules/custom/digipolis_arcgis/digipolis_arcgis_openlayers/images/orange-marker.png" style="opacity: 1" fill="#ee9900" fill-opacity="1" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image>
+                                                <image id="OpenLayers.Geometry.Point_256" cx="-24.795611069957886" cy="201.7568791382655" r="1" preserveAspectRatio="none" x="-41" y="170" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/sites/all/modules/custom/digipolis_arcgis/digipolis_arcgis_openlayers/images/orange-marker.png" style="opacity: 1" fill="#ee9900" fill-opacity="1" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image>
+                                                <image id="OpenLayers.Geometry.Point_230" cx="18.019022465437956" cy="221.99468450440327" r="1" preserveAspectRatio="none" x="2" y="190" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/sites/all/modules/custom/digipolis_arcgis/digipolis_arcgis_openlayers/images/orange-marker.png" style="opacity: 1" fill="#ee9900" fill-opacity="1" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image>
+                                                <image id="OpenLayers.Geometry.Point_244" cx="158.6133596277905" cy="226.06798688921845" r="1" preserveAspectRatio="none" x="143" y="194" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/sites/all/modules/custom/digipolis_arcgis/digipolis_arcgis_openlayers/images/orange-marker.png" style="opacity: 1" fill="#ee9900" fill-opacity="1" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image>
+                                                <image id="OpenLayers.Geometry.Point_232" cx="-97.20870684072543" cy="279.9687080610893" r="1" preserveAspectRatio="none" x="-113" y="248" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/sites/all/modules/custom/digipolis_arcgis/digipolis_arcgis_openlayers/images/orange-marker.png" style="opacity: 1" fill="#ee9900" fill-opacity="1" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image>
+                                                <circle id="OpenLayers.Geometry.Point_226" cx="116.76844109627564" cy="290.4825525083288" r="10" fill="rgb(141, 203, 61)" fill-opacity="0.8" stroke="rgb(141, 203, 61)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></circle>
+                                                <image id="OpenLayers.Geometry.Point_248" cx="44.92575770440453" cy="306.98511540619074" r="1" preserveAspectRatio="none" x="29" y="275" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/sites/all/modules/custom/digipolis_arcgis/digipolis_arcgis_openlayers/images/orange-marker.png" style="opacity: 1" fill="#ee9900" fill-opacity="1" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image>
+                                                <image id="OpenLayers.Geometry.Point_234" cx="191.7660047501122" cy="307.2589691504836" r="1" preserveAspectRatio="none" x="176" y="275" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/sites/all/modules/custom/digipolis_arcgis/digipolis_arcgis_openlayers/images/orange-marker.png" style="opacity: 1" fill="#ee9900" fill-opacity="1" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image>
+                                                <image id="OpenLayers.Geometry.Point_236" cx="155.70493082871508" cy="334.1810367186554" r="1" preserveAspectRatio="none" x="140" y="302" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/sites/all/modules/custom/digipolis_arcgis/digipolis_arcgis_openlayers/images/orange-marker.png" style="opacity: 1" fill="#ee9900" fill-opacity="1" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image>
+                                            </g>
+                                            <g id="OpenLayers.Layer.Vector_27_troot">
+                                                <text id="OpenLayers.Feature.Vector_227_label" x="116.76844109627564" y="290.4825525083288" fill="white" stroke="white" stroke-width="1" opacity="0.8" font-size="12px" pointer-events="none" text-anchor="middle">
+                                                    <tspan id="OpenLayers.Feature.Vector_227_label_tspan_0" baseline-shift="-35%" x="116.76844109627564" dy="0em">2</tspan>
+                                                </text>
+                                                <text id="OpenLayers.Feature.Vector_227_outline" x="116.76844109627564" y="290.4825525083288" fill="#000000" opacity="0.8" font-size="12px" pointer-events="none" text-anchor="middle">
+                                                    <tspan id="OpenLayers.Feature.Vector_227_outline_tspan_0" baseline-shift="-35%" x="116.76844109627564" dy="0em">2</tspan>
+                                                </text>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div id="OpenLayers.Control.Attribution_88" class="olControlAttribution olControlNoSelect" unselectable="on" style="position: absolute; z-index: 1001;"></div>
+                            <div id="OpenLayers.Control.PanZoomBar_142" class="olControlPanZoomBar olControlNoSelect" unselectable="on" style="position: absolute; left: 4px; top: 4px; z-index: 1003;">
+                                <div id="OpenLayers.Control.PanZoomBar_142_panup" class="olButton" style="position: absolute; left: 13px; top: 4px; width: 18px; height: 18px; cursor: pointer;"><img id="OpenLayers.Control.PanZoomBar_142_panup_innerImage" class="olAlphaImg" src="/sites/all/modules/custom/digipolis_openlayers/themes/google/img/north-mini.png" style="position: relative; width: 18px; height: 18px;"></div>
+                                <div id="OpenLayers.Control.PanZoomBar_142_panleft" class="olButton" style="position: absolute; left: 4px; top: 22px; width: 18px; height: 18px; cursor: pointer;"><img id="OpenLayers.Control.PanZoomBar_142_panleft_innerImage" class="olAlphaImg" src="/sites/all/modules/custom/digipolis_openlayers/themes/google/img/west-mini.png" style="position: relative; width: 18px; height: 18px;"></div>
+                                <div id="OpenLayers.Control.PanZoomBar_142_panright" class="olButton" style="position: absolute; left: 22px; top: 22px; width: 18px; height: 18px; cursor: pointer;"><img id="OpenLayers.Control.PanZoomBar_142_panright_innerImage" class="olAlphaImg" src="/sites/all/modules/custom/digipolis_openlayers/themes/google/img/east-mini.png" style="position: relative; width: 18px; height: 18px;"></div>
+                                <div id="OpenLayers.Control.PanZoomBar_142_pandown" class="olButton" style="position: absolute; left: 13px; top: 40px; width: 18px; height: 18px; cursor: pointer;"><img id="OpenLayers.Control.PanZoomBar_142_pandown_innerImage" class="olAlphaImg" src="/sites/all/modules/custom/digipolis_openlayers/themes/google/img/south-mini.png" style="position: relative; width: 18px; height: 18px;"></div>
+                                <div id="OpenLayers.Control.PanZoomBar_142_zoomin" class="olButton" style="position: absolute; left: 13px; top: 63px; width: 18px; height: 18px; cursor: pointer;"><img id="OpenLayers.Control.PanZoomBar_142_zoomin_innerImage" class="olAlphaImg" src="/sites/all/modules/custom/digipolis_openlayers/themes/google/img/zoom-plus-mini.png" style="position: relative; width: 18px; height: 18px;"></div>
+                                <div id="OpenLayers_Control_PanZoomBar_ZoombarOpenLayers.Map_2" class="olButton" style="left: 13px; top: 81px; width: 18px; height: 242px; position: absolute; cursor: pointer; background-image: url(https://stad.gent/sites/all/modules/custom/digipolis_openlayers/themes/google/img/zoombar.png);"></div>
+                                <div id="OpenLayers.Control.PanZoomBar_142_OpenLayers.Map_2" style="position: absolute; left: 12px; top: 181px; width: 20px; height: 9px; cursor: move;"><img id="OpenLayers.Control.PanZoomBar_142_OpenLayers.Map_2_innerImage" class="olAlphaImg" src="/sites/all/modules/custom/digipolis_openlayers/themes/google/img/slider.png" style="position: relative; width: 20px; height: 9px;"></div>
+                                <div id="OpenLayers.Control.PanZoomBar_142_zoomout" class="olButton" style="position: absolute; left: 13px; top: 323px; width: 18px; height: 18px; cursor: pointer;"><img id="OpenLayers.Control.PanZoomBar_142_zoomout_innerImage" class="olAlphaImg" src="/sites/all/modules/custom/digipolis_openlayers/themes/google/img/zoom-minus-mini.png" style="position: relative; width: 18px; height: 18px;"></div>
+                            </div>
+                            <div id="OpenLayers.Control.SelectFeature_194" class="olControlSelectFeature olControlNoSelect" unselectable="on" style="position: absolute; z-index: 1004;"></div>
+                        </div>
+                    </div>
+                    <div id="openlayers-map-external-panel" class="external-panel init-tabs-processed"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="view-content clearfix">
+
+        <div>
+            <article class="ds-1col node node-location view-mode-short_teaser l-third island island--alpha js-height no-border clearfix" style="height: 127px;">
+                <h3><i class="icon-loc"></i><a></a><a href="/openingsuren-adressen/bibliotheek-hoofdbibliotheek-zuid">Name</a></h3>
+                <div id="node-location-short-teaser-group-address-first" class="group-address-line1 field-group-div">Street nr</div>
+                <div id="node-location-short-teaser-group-address-second" class="group-address-line2 field-group-div">Zipcode <span class="address_city">City</span></div>
+            </article>
+        </div>
+
+        <div>
+            <article class="ds-1col node node-location view-mode-short_teaser l-third island island--alpha js-height no-border clearfix" style="height: 127px;">
+                <h3><i class="icon-loc"></i><a></a><a href="/openingsuren-adressen/bibliotheek-hoofdbibliotheek-zuid">Name</a></h3>
+                <div id="node-location-short-teaser-group-address-first" class="group-address-line1 field-group-div">Street nr</div>
+                <div id="node-location-short-teaser-group-address-second" class="group-address-line2 field-group-div">Zipcode <span class="address_city">City</span></div>
+            </article>
+        </div>
+
+        <div>
+            <article class="ds-1col node node-location view-mode-short_teaser l-third island island--alpha js-height no-border clearfix" style="height: 127px;">
+                <h3><i class="icon-loc"></i><a></a><a href="/openingsuren-adressen/bibliotheek-hoofdbibliotheek-zuid">Name</a></h3>
+                <div id="node-location-short-teaser-group-address-first" class="group-address-line1 field-group-div">Street nr</div>
+                <div id="node-location-short-teaser-group-address-second" class="group-address-line2 field-group-div">Zipcode <span class="address_city">City</span></div>
+            </article>
+        </div>
+
+        <div>
+            <article class="ds-1col node node-location view-mode-short_teaser l-third island island--alpha js-height no-border clearfix" style="height: 127px;">
+                <h3><i class="icon-loc"></i><a></a><a href="/openingsuren-adressen/bibliotheek-hoofdbibliotheek-zuid">Name</a></h3>
+                <div id="node-location-short-teaser-group-address-first" class="group-address-line1 field-group-div">Street nr</div>
+                <div id="node-location-short-teaser-group-address-second" class="group-address-line2 field-group-div">Zipcode <span class="address_city">City</span></div>
+            </article>
+        </div>
+
+        <div>
+            <article class="ds-1col node node-location view-mode-short_teaser l-third island island--alpha js-height no-border clearfix" style="height: 127px;">
+                <h3><i class="icon-loc"></i><a></a><a href="/openingsuren-adressen/bibliotheek-hoofdbibliotheek-zuid">Name</a></h3>
+                <div id="node-location-short-teaser-group-address-first" class="group-address-line1 field-group-div">Street nr</div>
+                <div id="node-location-short-teaser-group-address-second" class="group-address-line2 field-group-div">Zipcode <span class="address_city">City</span></div>
+            </article>
+        </div>
+
+        <div>
+            <article class="ds-1col node node-location view-mode-short_teaser l-third island island--alpha js-height no-border clearfix" style="height: 127px;">
+                <h3><i class="icon-loc"></i><a></a><a href="/openingsuren-adressen/bibliotheek-hoofdbibliotheek-zuid">Name</a></h3>
+                <div id="node-location-short-teaser-group-address-first" class="group-address-line1 field-group-div">Street nr</div>
+                <div id="node-location-short-teaser-group-address-second" class="group-address-line2 field-group-div">Zipcode <span class="address_city">City</span></div>
+            </article>
+        </div>
+
+        <div>
+            <article class="ds-1col node node-location view-mode-short_teaser l-third island island--alpha js-height no-border clearfix" style="height: 127px;">
+                <h3><i class="icon-loc"></i><a></a><a href="/openingsuren-adressen/bibliotheek-hoofdbibliotheek-zuid">Name</a></h3>
+                <div id="node-location-short-teaser-group-address-first" class="group-address-line1 field-group-div">Street nr</div>
+                <div id="node-location-short-teaser-group-address-second" class="group-address-line2 field-group-div">Zipcode <span class="address_city">City</span></div>
+            </article>
+        </div>
+
+        <div>
+            <article class="ds-1col node node-location view-mode-short_teaser l-third island island--alpha js-height no-border clearfix" style="height: 127px;">
+                <h3><i class="icon-loc"></i><a></a><a href="/openingsuren-adressen/bibliotheek-hoofdbibliotheek-zuid">Name</a></h3>
+                <div id="node-location-short-teaser-group-address-first" class="group-address-line1 field-group-div">Street nr</div>
+                <div id="node-location-short-teaser-group-address-second" class="group-address-line2 field-group-div">Zipcode <span class="address_city">City</span></div>
+            </article>
+        </div>
+
+        <div>
+            <article class="ds-1col node node-location view-mode-short_teaser l-third island island--alpha js-height no-border clearfix" style="height: 127px;">
+                <h3><i class="icon-loc"></i><a></a><a href="/openingsuren-adressen/bibliotheek-hoofdbibliotheek-zuid">Name</a></h3>
+                <div id="node-location-short-teaser-group-address-first" class="group-address-line1 field-group-div">Street nr</div>
+                <div id="node-location-short-teaser-group-address-second" class="group-address-line2 field-group-div">Zipcode <span class="address_city">City</span></div>
+            </article>
+        </div>
+
+    </div>
+</div>
+
+```*/

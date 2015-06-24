@@ -11,18 +11,79 @@
   @extend %link-list;
 }
 
+/*doc
+---
+title: Link list
+name: linklist
+category: elements
+---
+
+<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae enim eu justo porta eleifend. Donec condimentum bibendum ex at facilisis. In elit diam, laoreet blandit rhoncus eu, dignissim eu metus. Sed bibendum lacus sit amet faucibus pellentesque. Nulla quis congue quam. Nam tincidunt ex eros, non scelerisque diam lacinia porttitor.</p>
+
+```html_example
+<div id="sheet-organisations" class="island island--kappa no-border-bottom">
+  <h3><i class="icon-loc"></i>Contacten</h3>
+  <ul class="link-list">
+    <li>
+      <article class="ds-1col node node-location node-teaser view-mode-teaser  clearfix">
+        <h3><a href="/openingsuren-adressen/dienstencentrum-drongen">Link title</a></h3>
+        <p class="required-fields group-address-line1">Adress number</p>
+        <div class="required-fields group-address-line2">Zipcode City</div>
+        <div class="field field-name-field-telephone field-type-text field-label-hidden">
+          <div class="field-items">
+            <div class="field-item even">
+              <a href="tel:+3292167743" class="linkedPhoneNumber" title="+32 9 216 77 43">+32 9 216 77 43</a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </li>
+
+    <li>
+      <article class="ds-1col node node-location node-teaser view-mode-teaser  clearfix">
+        <h3><a href="/openingsuren-adressen/dienstencentrum-drongen">Link title</a></h3>
+        <p class="required-fields group-address-line1">Adress number</p>
+        <div class="required-fields group-address-line2">Zipcode City</div>
+        <div class="field field-name-field-telephone field-type-text field-label-hidden">
+          <div class="field-items">
+            <div class="field-item even">
+              <a href="tel:+3292167743" class="linkedPhoneNumber" title="+32 9 216 77 43">+32 9 216 77 43</a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </li>
+
+    <li>
+      <article class="ds-1col node node-location node-teaser view-mode-teaser  clearfix">
+        <h3><a href="/openingsuren-adressen/dienstencentrum-drongen">Link title</a></h3>
+        <p class="required-fields group-address-line1">Adress number</p>
+        <div class="required-fields group-address-line2">Zipcode City</div>
+        <div class="field field-name-field-telephone field-type-text field-label-hidden">
+          <div class="field-items">
+            <div class="field-item even">
+              <a href="tel:+3292167743" class="linkedPhoneNumber" title="+32 9 216 77 43">+32 9 216 77 43</a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </li>
+  </ul>
+</div>
+```*/
+
 li.link-list__more {
   @extend %link-list__more;
 }
 
 .readmore-list-wrapper {
   @include padding-tb(.6, 0);
-  
+
   ul {
     @extend %link-list;
     li {
       @extend %link-list__more;
-    } 
+    }
   }
 }
 

@@ -35,7 +35,7 @@ dependencies:
 # To additionally output navigation for top level sections, set the value to
 # 'section'. To output navigation for sub-sections,
 # set the value to `all`
-nav_level: 'section'
+nav_level: 'all'
 
 # Hologram displays warnings when there are issues with your docs
 # (e.g. if a component's parent is not found, if the _header.html and/or
