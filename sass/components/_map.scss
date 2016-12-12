@@ -90,3 +90,20 @@ body .olControlMapLegend {
     }
   }
 }
+
+//
+// olControl: SearchGeotag.
+//
+.olControlSearchGeotag {
+  .title {
+    @include font-size(-1);
+    font-weight: bold;
+    margin-bottom: 20px;
+
+    &:before {
+      @extend .icon-base-css;
+      @extend .icon-search:before;
+      margin-right: 10px;
+    }
+  }
+}
