@@ -91,6 +91,11 @@ body .olControlMapLegend {
   }
 }
 
+// Make sure jQuery ui front elements are put in front.
+.ui-front {
+  z-index: 10000 !important;
+}
+
 //
 // olControl: SearchGeotag.
 //
