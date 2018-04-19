@@ -17,10 +17,23 @@
         {
             "type": "composer",
             "url": "https://packagist.gentgrp.gent.be"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "gent/gent-styleguide",
+                "version": "dev-develop",
+                "type":"library",
+                "source": {
+                    "url": "git@github.com:StadGent/fractal_styleguide_gent-base-archive.git",
+                    "type": "git",
+                    "reference": "develop"
+                }
+            }
         }
     ],
     "require": {
-        "gent/gent-styleguide": "dev-develop"
+        "gent/gent-styleguide": "dev-develop#1bc3e5320f421ef5bb9715df82eb13f00ef09ec4"
     },
     "extra": {
         "branch-alias": {
